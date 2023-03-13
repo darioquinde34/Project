@@ -1,0 +1,128 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*
+ * Los estilos estan ordenado de tal forma 
+ * como se creoel xfml , desde lo primero que se creo
+ * hasta lo ultimo.
+ * La "L" significa que es una etiqueta Label.
+ * La "TF" significa una etiqueta TextField.
+ * La etiqueta que empieza por "L" tiene junto a el texto que se visualiza.
+ * La etiqueta que empieza por "TF" hace referencia a lo que el usuario va a introducir en el TextField
+ */
+ /*TEXTO EN XFML "HORA DE REGISTRARTE!" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_HORADEREGISTRAR {
+	-fx-font-size: 20; 
+	-fx-font-family: Arial; 
+	-fx-font-weight: bold;
+}
+ /*TEXTO EN XFML "INTRODUCE TUS DATOS" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_INTRODUCE_DATOS{
+	-fx-font-size: 14;
+	-fx-font-weight: BOLD; 
+	-fx-underline: TRUE;
+}
+ /*TEXTO EN XFML "Nombre de la empresa:" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_NOMBRE_EMPRESA {
+	-fx-background-size: 14; 
+	-fx-font-weight: bold;
+}
+
+#TF_NOMBRE_EMPRESA {
+	-fx-border-color: grey;
+}
+ /*TEXTO EN XFML "Dirección fiscal de la empresa:" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_DIRECCION_EMPRESA {
+	-fx-background-size: 14 ;
+	-fx-font-weight: bold;
+}
+#TF_DIRECCION_EMPRESA{
+	-fx-border-color: grey;
+}
+ /*TEXTO EN XFML "Numero de telefono de la empresa:" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_NUMERO_EMPRESA {
+	-fx-background-size: 14; 
+	-fx-font-weight: bold;
+}
+#TF_NUMERO_EMPRESA {
+	-fx-border-color: grey;
+}
+ /*TEXTO EN XFML "Nombre completo del usuario que esta haciendo el registro" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_NOMBRE_USUARIO_REGISTRO{
+	-fx-background-size: 14; 
+	-fx-font-weight: bold;
+}
+#TF_NOMBRE_USUARIO_REGISTRO {
+	-fx-border-color: grey;
+	
+}
+ /*TEXTO EN XFML "Puesto del usuario que esta haciendo el registro:" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_PUESTO_USUARIO_REGISTRO {
+	-fx-background-size: 14; 
+	-fx-font-weight: bold;
+}
+#TF_PUESTO_USUARIO_REGISTRO{
+	-fx-border-color: grey;
+}
+ /*TEXTO EN XFML "Nombre de usuario :" 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_NOMBRE_USUARIO{
+	-fx-background-size: 14; 
+	-fx-font-weight: bold;	
+}
+#TF_NOMBRE_USUARIO{
+	-fx-border-color: grey;
+}
+ /*TEXTO EN XFML "Correo electrónico ( con el que iniciaras sesion en FACTUR PDR ) " 
+  * DETERMINA SUS ESTILOS
+  * */
+#L_CORREO_ELECTRONICO{
+	-fx-background-size: 14; 
+	-fx-font-weight: bold;
+}
+#TF_CORREO_ELECTRONICO {
+	-fx-border-color: grey;
+}
+#L_CONTRASENA{
+	-fx-background-size: 14; 
+	-fx-font-weight: bold;
+}
+#CONTRASENA{
+	-fx-border-color: grey;
+	}
+/* BOTON DE REGISTRO */
+#BotonREGISTRO {
+    -fx-background-color: orange;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 1);
+    -fx-cursor:hand ; /*Cursos sobre el boton hace que se vea la opcion de pulsar*/
+}
+/*BOTON VOLVER */
+#BotonVolver_VIEWREGISTRO {
+ -fx-font-size: 15px;
+  -fx-background-color: #333;
+  -fx-text-fill: #fff;
+  -fx-background-radius: 5px;
+  -fx-border-radius: 5px;
+  -fx-border-color: transparent;
+  -fx-opacity: 0.7;
+   -fx-cursor:hand ; /*Cursos sobre el boton hace que se vea la opcion de pulsar*/
+}

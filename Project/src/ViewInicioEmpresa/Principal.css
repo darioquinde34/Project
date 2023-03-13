@@ -1,0 +1,71 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* CONTENIDO DE CABECERO SUPERIOR */
+/* LATERAL IZQUIERDO */
+#Texto_Superior_FACTURPDR {
+-fx-text-fill: orange; /* Define el color de texto */
+-fx-font-size: 16; /* Define el tamaño de fuente */
+-fx-font-weight: bold; /*  Define el grosor de la fuente */
+-fx-font-family: "Arial"; /* Define la fuente utilizada */
+
+}
+#Texto_Superior_Home,
+#Texto_Superior_FUNCIONALIDADES,
+#Texto_Superior_PRECIOS,
+#Texto_Superior_CLIENTES {
+-fx-text-fill: white; /* Define el color de texto */
+-fx-font-size: 16; /* Define el tamaño de fuente */
+-fx-border-color: transparent; /*  Define el color del borde */
+-fx-border-width: 0; /* Define el grosor del borde */
+-fx-background-color: transparent; /*  Define el color de fondo */
+}
+
+/* LATERAL DERECHO */
+#Boton_Superior_REGISTRASE {
+-fx-text-fill: orange; /* Define el color de texto */
+-fx-font-size: 14; /* Define el tamaño de fuente */
+-fx-background-color: transparent; /* Define el color de fondo */
+-fx-cursor: hand; /* Cambia el cursor al pasar el mouse */
+}
+
+#Boton_Superior_INICIARSESION {
+-fx-text-fill: orange; /* Define el color de texto */
+-fx-font-size: 14; /* Define el tamaño de fuente */
+-fx-background-color: transparent; /*  Define el color de fondo */
+-fx-cursor: hand; /* Cambia el cursor al pasar el mouse */
+}
+
+/* CONTENIDO DEL CABECERO CENTRAL/PRINCIPAL */
+#TEXTO_GRANDE {
+-fx-font-size: 50px; /* Define el tamaño de fuente */
+-fx-font-weight: bold; /*  Define el grosor de la fuente */
+-fx-text-alignment: center; /* Define la alineación del texto */
+-fx-padding: 0 0 70 40; /* Define el relleno interno */
+-fx-text-fill: orange; /*  Define el color de texto */
+}
+
+#TEXTO_NORMAL {
+-fx-font-size: 20px; /* Define el tamaño de fuente */
+-fx-text-alignment: center; /*  Define la alineación del texto */
+-fx-padding: -100 0 70 -500; /*  Define el relleno interno */
+}
+
+#Boton_Central_Registro {
+-fx-background-color: orange; /* Define el color de fondo */
+-fx-text-fill: white; /*  Define el color de texto */
+-fx-font-size: 18; /*  Define el tamaño de fuente */
+-fx-pref-width: 600; /*  Define el ancho preferido */
+-fx-pref-height: 40; /*  Define el alto preferido */
+-fx-font-family: "Arial"; /* Define la fuente utilizada */
+-fx-background-radius: 20; /* Define el radio de la esquina del fondo */
+-fx-cursor: hand; /* Cambia el cursor al pasar el mouse */
+}
+
+/* CONTENIDO DEL CABECERO INFERIOR */
+#TEXTO_INFERIOR_FACTURPDR {
+-fx-text-fill: orange; /* Define el color de texto */
+-fx-font-weight: bold; /*Define la negrita de la la letra */
+-fx-font-size: 12px; /* Define en tamaño de la letra */
+    
+}

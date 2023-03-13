@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="1004.0" prefWidth="1272.0" stylesheets="@Funcionalidades.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ControladorFuncionalidades">
+ 
+ 
+    <center>
+        <ScrollPane>
+            <content>
+                <VBox prefWidth="1282.0" spacing="20" style="-fx-padding: 20px; -fx-background-image: url('https://img.freepik.com/foto-gratis/fondo-piedra-gris_24972-1659.jpg'); -fx-background-position: center;">
+               <ImageView fitHeight="207.0" fitWidth="255.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="https://facturpdr.000webhostapp.com/Imagenes/Logotipo/LogoFactur.png" />
+                  </image>
+                  <VBox.margin>
+                     <Insets left="450.0" />
+                  </VBox.margin>
+               </ImageView>
+                    <Label id="TEXTO" text="Estamos encantados de presentarte nuestro software de gestión empresarial, diseñado específicamente para empresas como la tuya.&#10;Con nuestro software, podrás llevar el control de tus clientes, vehículos y facturación de manera fácil y eficiente." />
+               <AnchorPane prefHeight="72.0" prefWidth="1242.0" style="-fx-background-color: #333337;">
+                  <VBox.margin>
+                     <Insets left="-50.0" />
+                  </VBox.margin>
+                  <children>
+                     <Text id="T_FACT_PDR" fill="WHITE" layoutX="334.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-weight: bold;" text="¡FACTUR PDR SE OCUPA DE TUS FACTURAS!" />
+                  </children>
+               </AnchorPane>
+                    <Label id="TEXTO" text="Una de las principales características de nuestro software es la posibilidad de añadir tus propios clientes y llevar un registro completo de sus&#10;datos, incluyendo información sobre sus vehículos. Podrás acceder a esta información desde cualquier lugar con conexión a internet, lo que te&#10;permitirá llevar un control detallado y actualizado en todo momento." />
+                    <Label id="TEXTO" text="Además, nuestro software también te permitirá controlar y actualizar el listado de vehículos de tu empresa, incluyendo información como la&#10;marca, modelo, año y kilometraje. Podrás acceder a esta información desde cualquier dispositivo, lo que te permitirá mantener un control&#10;detallado y actualizado en todo momento.">
+                  <VBox.margin>
+                     <Insets />
+                  </VBox.margin></Label>
+               <AnchorPane layoutX="-20.0" layoutY="386.0" prefHeight="72.0" prefWidth="1242.0" style="-fx-background-color: #333337;">
+                  <VBox.margin>
+                     <Insets left="-50.0" />
+                  </VBox.margin>
+                  <children>
+                     <Text fill="WHITE" layoutX="231.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 30;" text="Entiende dónde se encuentra tu negocio en todo momento." wrappingWidth="851.769287109375" />
+                  </children>
+               </AnchorPane>
+                    <Label id="TEXTO" text="Otra de las grandes ventajas de nuestro software es la posibilidad de controlar tus clientes de manera sencilla y eficiente, permitiéndote llevar&#10;un seguimiento de sus pagos y facturación de manera automática. Podrás emitir facturas de manera rápida y fácil, lo que te permitirá&#10;centrarte en otras tareas importantes de tu empresa." />
+                    <Label id="TEXTO" text="En resumen, nuestro software de gestión empresarial es una herramienta fundamental para cualquier empresa que quiera llevar un control&#10;eficiente de sus clientes, vehículos&#10;y facturación. Con su fácil accesibilidad y gran variedad de funciones, te permitirá llevar un control detallado y actualizado en todo &#10;momento, lo que se traducirá en una mayor eficiencia y productividad para tu empresa." />
+                </VBox>
+            </content>
+         </ScrollPane>
+    </center>
+        <bottom>
+        <BorderPane style="-fx-padding: 0px; -fx-background-color: #333337">
+            <left>
+                <HBox>
+                    <Button fx:id="BotonVolver" onAction="#VOLVER_PULSADO" text="Volver" />
+                </HBox>
+            </left>
+        </BorderPane>
+    </bottom>
+</BorderPane>

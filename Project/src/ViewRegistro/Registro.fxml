@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="582.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ControladorRegistro" stylesheets="@Registro.css">
+   <bottom>
+      <AnchorPane prefHeight="628.0" prefWidth="3415.0"  BorderPane.alignment="CENTER">
+         <children>
+            <Text id="L_HORADEREGISTRAR" fill="#fe9203" layoutX="23.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HORA DE REGISTRARTE!" wrappingWidth="283.13074493408203" />
+            <Text id="TEXTO1" layoutX="23.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bienvenidos a nuestro sistema de facturación para empresas de vehículos! " wrappingWidth="3391.418613433838" />
+            <Text id="TEXTO2" layoutX="23.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Olvídate de la tarea de llevar un registro manual de tus facturas y dedica más tiempo a lo que realmente importa: hacer crecer tu empresa." />
+            <Text id="TEXTO3" layoutX="23.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Únete a nosotros y descubre cómo facilitar la gestión de tus facturas!" />
+            <VBox alignment="TOP_CENTER" layoutX="20.0" layoutY="129.0" prefHeight="494.0" prefWidth="712.0" style="-fx-border-color: orange;">
+               <children>
+                  <Label id ="L_INTRODUCE_DATOS" alignment="TOP_CENTER" prefHeight="24.0" prefWidth="168.0" text="INTRODUCE TUS DATOS" textFill="#fe9203">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <VBox prefHeight="487.0" prefWidth="710.0">
+                     <children>
+                        <Label id="L_NOMBRE_EMPRESA" text="Nombre de la empresa:" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="TF_NOMBRE_EMPRESA">
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label id="L_DIRECCION_EMPRESA" text="Dirección fiscal de la empresa:" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="TF_DIRECCION_EMPRESA" >
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label id="L_NUMERO_EMPRESA" text="Numero de telefono de la empresa:" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id ="TF_NUMERO_EMPRESA" >
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label id ="L_NOMBRE_USUARIO_REGISTRO" text="Nombre completo del usuario que esta haciendo el registro:" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="TF_NOMBRE_USUARIO_REGISTRO" >
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label id="L_PUESTO_USUARIO_REGISTRO" text="Puesto del usuario que esta haciendo el registro:" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="TF_PUESTO_USUARIO_REGISTRO" >
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label id="L_NOMBRE_USUARIO"  text="Nombre de usuario :" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id ="TF_NOMBRE_USUARIO" >
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label id ="L_CORREO_ELECTRONICO"  text="Correo electrónico ( con el que iniciaras sesion en FACTUR PDR ) :" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="TF_CORREO_ELECTRONICO" prefHeight="27.0" prefWidth="466.0" style="-fx-border-color: grey;">
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label id ="L_CONTRASENA"  text="Contraseña :" textFill="#fe9203">
+                           <padding>
+                              <Insets left="4.0" />
+                           </padding>
+                        </Label>
+                        <PasswordField fx:id="CONTRASENA" >
+                           <VBox.margin>
+                              <Insets left="4.0" right="400.0" />
+                           </VBox.margin>
+                        </PasswordField>
+                        <Button fx:id="BotonREGISTRO" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0"  text="Registrarse" onAction="#BOTONREGISTRO_PULSADO">
+                           <VBox.margin>
+                              <Insets left="300.0" top="30.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <ImageView fitHeight="354.0" fitWidth="463.0" layoutX="782.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://facturpdr.000webhostapp.com/Imagenes/ImagenesRegistro/imagen.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutY="632.0" prefHeight="30.0" prefWidth="1605.0" style="-fx-background-color: #333337;;">
+               <children>
+                  <Button fx:id="BotonVolver_VIEWREGISTRO" layoutX="14.0" layoutY="2.0" mnemonicParsing="false" text="Volver" onAction= "#VOLVER_VIEWREGISTRO"/>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      
+   </bottom>
+   
+</BorderPane>
